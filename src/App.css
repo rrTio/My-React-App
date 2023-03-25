@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.button{
+  width: 150px;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.buttonAdd{
+  background-color: rgb(202, 8, 8);
+  font-weight: bold;
+  color: white;
+}
+
+.buttonSub{
+  background-color: rgb(10, 10, 230);
+  font-weight: bold;
+  color: white;
+}
