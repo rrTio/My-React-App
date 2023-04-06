@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>ADD OR SUBTRACT</h1>
+      <h1>ADD & SUBTRACT</h1>
       <button className='button buttonAdd' onClick={btnAdd}>ADD</button>
       <br/>
       {count}
@@ -25,6 +25,5 @@ export default function App() {
       <button className='button buttonSub' onClick={btnSub}>SUBTRACT</button>
     </div>
   );
+  
 }
-
-
